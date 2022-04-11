@@ -11,6 +11,10 @@ color: white;
 line-height: auto;
 background-color: black;
 cursor: pontier;
+width: 300px;
+background-color: blue;
+margin-right: auto;
+margin-left: auto;
 }
 #botonservi{
    cursor: pointer;
