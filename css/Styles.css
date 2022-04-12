@@ -1,45 +1,40 @@
-body{
+html{
 font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
 sans-serif;
 color: rgb(0, 0, 0);
 font-size: auto;
+margin: auto;
 }
 .head1 {   
 color: white;
 line-height: normal;
-background-color: black;
+background-color: black; 
 cursor: pontier;
-width: 300px;
-background-image: url(/);
+width: 600px;
+background-image: url(/images/bh.jpg);
+background-size: cover;
 padding-left: 500px;
 padding-top: 200px;
-padding-right: 500px;
+padding-right: 700px;
 padding-bottom: 200px;
 }
 .header{
+   font-size: 14px;
    margin-left: 70px;
-   margin-right:70px;
+   margin-right:auto;
    display: flex;
    flex-direction: row;
-   justify-content:space-between;
+   justify-content:space-evenly;
+padding-bottom: 200px;
+padding-top: 0;  
+  
+   padding-right: 500px;
 }
-.menu {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-end;
-}
-.integrants{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   margin-left: 70px;
-   margin-right:70px ;
-}
-#botonservi{
+#botonservi {
    cursor: pointer;
-   background-color:cornflowerblue;
+   background-color: cornflowerblue;
    color: white;
    justify-content: center;
    padding-left: 20px;
@@ -47,64 +42,83 @@ padding-bottom: 200px;
    margin-right: 50px;
    margin-left: 50px;
 }
-#botonesportafolio{
-   cursor: pointer; 
+
+.card-set {
+   display: flex;
+   flex-wrap: wrap;
 }
-#todo {
-   cursor: pointer;
+.item{
+   display: flex;
+   flex-direction: column;
+         margin-top: 0;
+         font-size: 20px;
 }
-#sitios {
-   cursor: pointer;
+      
+.item p {
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+margin: 0;
 }
-#aplicaciones {
-   cursor: pointer;
-}
-#diseño{
-   cursor: pointer;
-}
-#marketing{
-   cursor: pointer;
+.integrants{
+   display: flex;
+   flex-basis: content;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   margin-left: 70px;
+   margin-right:70px ;
 }
 .foot1{
-background-color: black;
-color: white;
+   color: white;
+   background-color: black;
+   font-size: 14px;
 }
-#webstudio{
+.webstudio1 {
    color: blue;
+   font-size: 26px;
 }
-#h2{
-   font-weight: 36;
-   font-size: bold;
+.webstudio2{
+   color: blue;
+font-size: 26px;
 }
-h3{
-   font-weight: 36;
-   font-weight: bold;
-   display: flex;
-   flex-direction: row;
-   justify-content:space-between;
-   margin-left: 70px;
-   margin-right: 70px;
-
-}
-p {
-   font-weight: 36;
-   font-weight: none;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   border
+#botonesportafolio{
+   cursor: pointer; 
 }
 #linkcorreo{
       color: white;
       text-decoration:none;
    }
-   #linknumero {
+#linknumero {
       color: white;
       text-decoration:none;
    }
-  
-   .container {
+.aqnd{
+   size: 80px;
+}
+.container {
       width: 1200px;
       margin: 0 auto;
       padding: 0 15px;
-   }
+}
+.webstudio11{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   align-items: flex-start;
+}
+.types{
+cursor: pointer;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-right: 500px;
+padding-bottom: 50px;
+
+}
+.srv{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: first baseline;
+}
