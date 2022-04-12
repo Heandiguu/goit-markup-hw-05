@@ -1,4 +1,4 @@
-#cuerpo{
+body{
 font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
@@ -8,16 +8,44 @@ font-size: auto;
 }
 .head1 {   
 color: white;
-line-height: auto;
+line-height: normal;
 background-color: black;
 cursor: pontier;
 width: 300px;
-background-color: blue;
-margin-right: auto;
-margin-left: auto;
+background-image: url(/);
+padding-left: 500px;
+padding-top: 200px;
+padding-right: 500px;
+padding-bottom: 200px;
+}
+.header{
+   margin-left: 70px;
+   margin-right:70px;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+}
+.menu {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+}
+.integrants{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 70px;
+   margin-right:70px ;
 }
 #botonservi{
    cursor: pointer;
+   background-color:cornflowerblue;
+   color: white;
+   justify-content: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-right: 50px;
+   margin-left: 50px;
 }
 #botonesportafolio{
    cursor: pointer; 
@@ -51,7 +79,20 @@ color: white;
 h3{
    font-weight: 36;
    font-weight: bold;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   margin-left: 70px;
+   margin-right: 70px;
 
+}
+p {
+   font-weight: 36;
+   font-weight: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border
 }
 #linkcorreo{
       color: white;
@@ -61,28 +102,9 @@ h3{
       color: white;
       text-decoration:none;
    }
-   #webstudio1{
-      color: blue;
-      text-decoration:none;
+  
+   .container {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
    }
-   #webstudio2{
-      color: blue;
-      text-decoration:none;
-   }} #webstudio1{
-      color: blue;
-      text-decoration:none;
-   }
-   #webstudio2{
-      color: blue;
-      text-decoration:none;
-   }
-   #webstudio11 {
-      color: blue;
-      text-decoration: none;
-   }
-   
-   #webstudio22 {
-      color: blue;
-      text-decoration: none;
-   }
-   
