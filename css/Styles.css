@@ -1,6 +1,3 @@
-
-
-
 .webstudio1 {
    width: 145px;
    height: 31px;
@@ -44,7 +41,7 @@ h1{
    align-content: flex-start;
  }
 
-.botonservi {
+.botonservi{
    -webkit-box-shadow: -4px 7px 10px 3px rgba(0, 0, 0, 0.64);
    box-shadow: -4px 7px 10px 3px rgba(10, 10, 10, 20.);
    width: 200px;
@@ -58,6 +55,8 @@ h1{
    cursor: pointer;
    background-color: cornflowerblue;
    color: white;
+   border-radius: 10px;
+   border-color: #757575;
 }
 .serv {
    margin:100px 200px 10px 215px;
@@ -168,8 +167,8 @@ margin:100px 100px 100px 300px;
    text-decoration: noe;
 }
 .c2{display: flex;
-   flex-direction: column;
-   margin: 10px 10px 10px 200px;
+   flex-wrap: rox;
+   margin: 10px 10px 20px 200px;
    height: 21px;
    width: 231px;
    font-family: Roboto;
@@ -181,9 +180,10 @@ margin:100px 100px 100px 300px;
    text-decoration: noe;
 }
 .icon {
+   width: 44px;
    display: flex;
    flex-direction: row;
-   background-repeat: no-repeat;
+   fill: #757575;
 }
 .icon-envelop {
    width: 25px;
@@ -198,27 +198,30 @@ margin:100px 100px 100px 300px;
    padding: -5px -20px 0px -100px;
 }
 .icon-facebook {
-   width: 32px;
-   height: 32px;
-   background-position: 144px 0;
-   width: 60px;
-   height: 90px;
-   background-position: 0px 0;
+   width: 40px;
+   height: 40px;
+   background-color: grey;
+   border: radius 20px;;
+   border-color: #757575;
 }
 .icon-instagram {
    width: 32px;
    height: 32px;
-   background-position: 144px 0;
+   background-position: 0px 0;
+   border-radius: 10px;
+   border-color: #757575;
 }
 .icon-twitter {
    width: 32px;
    height: 32px;
-   background-position: -192px 0;
-}
+
+   border-radius: 100px;
+   border-color: #757575;}
 .icon-linkedin {
    width: 32px;
    height: 32px;
-   background-position: -240px 0;
+   border-radius:40px;
+   border-color: 757575;
 }
 p
 {
@@ -230,7 +233,7 @@ align-content: center;
 .item{
    display :flex ;
    flex-direction: column;
-   align-content: center;
+   align-items: center;
 }
 .ftil{
 display: flex;
@@ -240,13 +243,14 @@ margin: 10px 10px 10px 10px;
 ;
 }
 .en{
-   margin: 10px 10px 10px 600px;
-   height: 40px;
+   margin: 20px 20px 10px 500px;
+   height: 20px;
    width: 200px;
    font-size: 20px;
    color: antiquewhite;
    display: flex;
-   justify-content: space-between;
-
+   justify-content: space-evenly;
 }
-
+.icon:hover {
+   fill: rgb(0, 128, 255);
+}
