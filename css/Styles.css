@@ -126,6 +126,12 @@ h2{
 }
 .cln{
 margin:100px 100px 100px 300px;
+cursor: pointer;
+fill: rgb(0, 128, 255);
+}
+.svg:hover {
+   cursor: pointer;
+   fill: rgb(0, 128, 255);
 }
 .foot1{
    margin: 100px 10px 10px 10px;
@@ -184,6 +190,7 @@ margin:100px 100px 100px 300px;
    display: flex;
    flex-direction: row;
    fill: #757575;
+   cursor: pointer;
 }
 .icon-envelop {
    width: 25px;
@@ -203,6 +210,7 @@ margin:100px 100px 100px 300px;
    background-color: grey;
    border: radius 20px;;
    border-color: #757575;
+;
 }
 .icon-instagram {
    width: 32px;
@@ -223,11 +231,10 @@ margin:100px 100px 100px 300px;
    border-radius:40px;
    border-color: 757575;
 }
-p
-{
+p{
 display: flex;
 justify-content: center;
-align-content: center;
+align-content: space-between;
 
 }
 .item{
@@ -240,7 +247,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 margin: 10px 10px 10px 10px;
-;
 }
 .en{
    margin: 20px 20px 10px 500px;
@@ -253,4 +259,19 @@ margin: 10px 10px 10px 10px;
 }
 .icon:hover {
    fill: rgb(0, 128, 255);
+}
+-----------------------------
+.botonestipos{
+height: 100px;
+width: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+div{
+display: flex;
+flex-wrap: wrap;
+margin: 200px 1500px 10px 200px;
+
+
 }
